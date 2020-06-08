@@ -1,0 +1,48 @@
+.left-par {
+  width: 40%;
+  justify-content: center;
+  padding: 0 15px;
+}
+
+.left-par > div {
+  padding-bottom: 15px;
+}
+
+.profile-pic {
+  width: 100%;
+  overflow: hidden;
+  padding-bottom: 15px;
+}
+
+.profile-pic img {
+  width: 100%;
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.user-name {
+  font-size: 24px;
+}
+
+.user-id {
+  color: gray;
+}
+
+.follow-btn {
+  width: 100%;
+}
+
+.user-company-details span {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.user-company-details i {
+  color: #6a737d;
+  margin-right: 5px;
+}
+
+.user-company-details a {
+  color: #0366d6;
+  text-decoration: none;
+}

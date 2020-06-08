@@ -1,0 +1,14 @@
+.tab-item {
+  flex: 1;
+  padding: 5px 0;
+  text-align: center;
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
+  color: gray;
+}
+
+.tab-item.active {
+  font-weight: bold;
+  border-bottom: 2px solid red;
+  color: #444;
+}

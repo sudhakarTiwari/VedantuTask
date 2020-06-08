@@ -1,0 +1,30 @@
+.repo-item {
+  padding: 24px 0;
+  border-top: 1px solid #e1e4e8;
+  display: flex;
+  flex-direction: column;
+}
+
+.repo-item:last-child {
+  border-bottom: 1px solid #e1e4e8;
+}
+
+.repo-name {
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.repo-name a {
+  color: #0366d6;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.star-btn i {
+  margin-right: 5px;
+}
+
+.repo-description {
+  color: #586069;
+}
